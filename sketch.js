@@ -1,4 +1,4 @@
-function steup(){
+function setup(){
     createCanvas(660,400);
     background(12,102,247);
 }
@@ -9,11 +9,14 @@ function draw(){
     stroke(225,225,225);
     fill(255,0,0);
     rect(290,100,250,250);
-    
+
     stroke(0,0,0);
     strokeWeight(4);
     fill(0,0,225);
     ellipse(50,250,80,80);
+    ellipse(50,225,80,80);
+    ellipse(15,250,45,50);
+    ellipse(80,260,90,100);
     
     
 }
